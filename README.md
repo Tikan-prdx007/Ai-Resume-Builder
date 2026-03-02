@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ai-Resume-Builder
+# AI Resume Builder  An accessible AI resume builder designed for blue-collar workers, featuring voice commands to help users create professional resumes quickly without needing advanced technical skills.
 
-## Getting Started
+If you see any error(in run):
 
-First, run the development server:
+npm.ps1 cannot be loaded because running scripts is disabled on this system
 
-```bash
+Run the following command in PowerShell (Run as Administrator):
+
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Then type:
+
+Y
+
+Restart VS Code and run:
+
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ Alternative (Quick Fix)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can also switch the VS Code terminal from PowerShell to Command Prompt (CMD) and run:
 
-## Learn More
+npm install
+npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🛠️ Build for Production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm run build
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👨‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed by Team Code Nova
